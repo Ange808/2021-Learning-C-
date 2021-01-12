@@ -1,0 +1,19 @@
+/*
+This program prints out the greatest integer out of 4 inputed integers
+*/
+
+
+
+#include<iostream> 
+// needs this library "#include<algorithm>"
+#include<algorithm> 
+using namespace std;
+int main()
+{
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    // you dont have to put "std::max" since we have a "using namespace std;"
+    cout << std::max({ a, b, c, d }) << endl;
+
+    return 0;
+}
