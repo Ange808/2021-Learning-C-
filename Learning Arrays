@@ -1,0 +1,22 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+	int arry[];
+	int i = 0;
+	int a = 0;
+	int b = arry[i + 0] = { a };
+	cin >> i;
+
+	cout << i << " " << "number of elements" << endl;
+
+	for (i != EOF; i = i; i++)
+	{
+
+		cin >> a;
+
+	}
+
+	return 0;
+} 
